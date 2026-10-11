@@ -1,0 +1,202 @@
+{
+  "generatedBy": "Generated from the Android app by WebDemoExportTest. Do not edit by hand: run web-demo/tools/export.ps1.",
+  "appVersion": "1.27",
+  "appVersionCode": 28,
+  "exportDay": "2026-09-15",
+  "categories": [
+    [
+      "Entertainment",
+      ["Dates", "Vacation", "Video games"]
+    ],
+    [
+      "Food & Drinks",
+      ["Groceries", "Restaurant", "Snacks"]
+    ],
+    [
+      "Health",
+      ["Dental", "Doctor", "Insurance", "Medication"]
+    ],
+    [
+      "Housing",
+      ["Cleaning after move out", "Home Supplies", "Home deposit", "Real Estate", "Rent"]
+    ],
+    [
+      "Income",
+      [
+        "Cashback",
+        "Debt returns",
+        "Family's money",
+        "Interest",
+        "Investment",
+        "Lost calculations",
+        "Refund",
+        "Salary",
+        "Sold items",
+        "Transportation card returns"
+      ]
+    ],
+    [
+      "Investments",
+      ["Cash", "Cryptocurrency", "Index ETF"]
+    ],
+    [
+      "Lifestyle",
+      ["Charity", "Family", "Gifts", "Going out with friends", "Haircut", "Outside Laundry"]
+    ],
+    [
+      "Networking",
+      ["Event tickets", "Food & drinks", "Hosting", "Transportation", "Venue rental"]
+    ],
+    [
+      "Other",
+      ["Lended money", "Lost calculations", "Miscellaneous", "Unexpected Expenditures"]
+    ],
+    [
+      "Paperwork",
+      ["Certificates", "Printing & scanning", "Visa & residency"]
+    ],
+    [
+      "Self-Improvement",
+      ["Books", "Courses", "Software subscription"]
+    ],
+    [
+      "Shopping",
+      [
+        "Clothing",
+        "Electronic Devices",
+        "Furniture",
+        "Kitchen utensils",
+        "PC upgrades",
+        "Self-care",
+        "Software",
+        "Sport equipment"
+      ]
+    ],
+    [
+      "Transportation",
+      ["Bicycle", "Express bus", "Public Transport", "Scooter", "Taxi", "Train"]
+    ],
+    [
+      "Unknown",
+      []
+    ],
+    [
+      "Utilities",
+      ["Cellphone", "Cloud", "Electricity", "Gas", "Management", "Subscriptions", "Television", "Water"]
+    ]
+  ],
+  "budgetConfig": {"MONTHLY_ALLOCATION": 100000, "START_YEAR": 2025, "START_MONTH": 4, "CATEGORY": "Entertainment", "SUBCATEGORY": "Dates", "CURRENCY": "KRW"},
+  "refundWindows": {"AUTO_WINDOW_DAYS": 60, "ITEM_WINDOW_DAYS": 35, "PICK_WINDOW_DAYS": 180},
+  "batches": {"history": "demo-history", "inbox": "demo-inbox", "manual": "manual:demo"},
+  "historySeed": [
+    {"daysAgo": 1, "note": "Olive Young sample", "amount": -38400, "category": "Shopping", "subcategory": "Self-care", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 2, "note": "Starbucks Gangnam sample", "amount": -11500, "category": "Food & Drinks", "subcategory": "Restaurant", "splitMode": "half", "gfAmount": 5750},
+    {"daysAgo": 3, "note": "Kakao T taxi sample", "amount": -9800, "category": "Transportation", "subcategory": "Taxi", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 4, "note": "CU convenience sample", "amount": -6200, "category": "Food & Drinks", "subcategory": "Snacks", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 5, "note": "Cinema date sample", "amount": -28000, "category": "Entertainment", "subcategory": "Dates", "splitMode": "custom", "gfAmount": 14000},
+    {"daysAgo": 6, "note": "Picnic date sample", "amount": -36000, "category": "Entertainment", "subcategory": "Dates", "splitMode": "half", "gfAmount": 18000},
+    {"daysAgo": 7, "note": "Coupang order sample", "amount": -54300, "category": "Shopping", "subcategory": "Electronic Devices", "splitMode": "half", "gfAmount": 27150},
+    {"daysAgo": 8, "note": "Homeplus groceries sample", "amount": -73200, "category": "Food & Drinks", "subcategory": "Groceries", "splitMode": "half", "gfAmount": 36600},
+    {"daysAgo": 9, "note": "Netflix sample", "amount": -13500, "category": "Utilities", "subcategory": "Subscriptions", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 11, "note": "Demo salary", "amount": 3200000, "category": "Income", "subcategory": "Salary", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 12, "note": "Hair salon sample", "amount": -25000, "category": "Lifestyle", "subcategory": "Haircut", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 14, "note": "Dinner with friends sample", "amount": -64000, "category": "Food & Drinks", "subcategory": "Restaurant", "splitMode": "custom", "gfAmount": 40000},
+    {"daysAgo": 16, "note": "Subway card top-up sample", "amount": -30000, "category": "Transportation", "subcategory": "Public Transport", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 18, "note": "Steam game sample", "amount": -39000, "category": "Entertainment", "subcategory": "Video games", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 21, "note": "Returned shoes refund sample", "amount": 42000, "category": "Income", "subcategory": "Refund", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 24, "note": "Birthday gift sample", "amount": -55000, "category": "Lifestyle", "subcategory": "Gifts", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 27, "note": "Electricity bill sample", "amount": -41200, "category": "Utilities", "subcategory": "Electricity", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 33, "note": "Weekend trip sample", "amount": -180000, "category": "Entertainment", "subcategory": "Vacation", "splitMode": "half", "gfAmount": 90000},
+    {"daysAgo": 38, "note": "Uniqlo sample", "amount": -49900, "category": "Shopping", "subcategory": "Clothing", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 42, "note": "Cafe date sample", "amount": -19000, "category": "Entertainment", "subcategory": "Dates", "splitMode": "custom", "gfAmount": 9500},
+    {"daysAgo": 47, "note": "Phone bill sample", "amount": -55000, "category": "Utilities", "subcategory": "Cellphone", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 52, "note": "Demo salary", "amount": 3200000, "category": "Income", "subcategory": "Salary", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 58, "note": "IKEA sample", "amount": -120000, "category": "Housing", "subcategory": "Home Supplies", "splitMode": "half", "gfAmount": 60000},
+    {"daysAgo": 63, "note": "Pharmacy sample", "amount": -8700, "category": "Health", "subcategory": "Medication", "splitMode": "i_pay_full", "gfAmount": 0},
+    {"daysAgo": 69, "note": "Restaurant date sample", "amount": -47000, "category": "Entertainment", "subcategory": "Dates", "splitMode": "custom", "gfAmount": 23500},
+    {"daysAgo": 92, "note": "Museum date sample", "amount": -22000, "category": "Entertainment", "subcategory": "Dates", "splitMode": "i_pay_full", "gfAmount": 0}
+  ],
+  "statement": {
+    "chunks": 1,
+    "source": "AI gateway",
+    "usedFallback": false,
+    "parseMode": "structured",
+    "aiError": null,
+    "receiptError": null,
+    "receiptsMatched": 3,
+    "receiptCandidates": 3,
+    "receiptsFetched": 3,
+    "receiptLookupConfigured": true,
+    "rows": [
+      {"daysAgo": 1, "time": "12:31", "note": "스타벅스 강남역점", "sourceNote": "", "amount": -6300, "currency": "KRW", "account": "", "category": "Food & Drinks", "subcategory": "Snacks"},
+      {"daysAgo": 1, "time": "10:05", "note": "쿠팡(쿠페이)_나이스", "sourceNote": "", "amount": 38900, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Refund"},
+      {"daysAgo": 1, "time": "08:12", "note": "카카오T 택시", "sourceNote": "", "amount": -11400, "currency": "KRW", "account": "", "category": "Transportation", "subcategory": "Taxi"},
+      {"daysAgo": 2, "time": "21:40", "note": "배달의민족", "sourceNote": "", "amount": -27500, "currency": "KRW", "account": "", "category": "Food & Drinks", "subcategory": "Restaurant"},
+      {"daysAgo": 2, "time": "16:20", "note": "쿠팡(쿠페이)", "sourceNote": "", "amount": 2900, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Refund"},
+      {"daysAgo": 2, "time": "09:53", "note": "쿠팡(쿠페이)_KICC — 무농약 바나나 1.2kg, 캡형 물티슈 100매", "sourceNote": "쿠팡(쿠페이)_KICC", "amount": -24140, "currency": "KRW", "account": "", "category": "Food & Drinks", "subcategory": "Groceries"},
+      {"daysAgo": 3, "time": "19:05", "note": "CGV 용산아이파크몰", "sourceNote": "", "amount": -30000, "currency": "KRW", "account": "", "category": "Entertainment", "subcategory": "Dates"},
+      {"daysAgo": 3, "time": "13:20", "note": "GS25 역삼점", "sourceNote": "", "amount": -4800, "currency": "KRW", "account": "", "category": "Food & Drinks", "subcategory": "Snacks"},
+      {"daysAgo": 3, "time": "11:30", "note": "쿠팡(쿠페이)", "sourceNote": "", "amount": 3500, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Refund"},
+      {"daysAgo": 4, "time": "20:40", "note": "쿠팡(쿠페이)_나이스 — 무선 블루투스 마우스", "sourceNote": "쿠팡(쿠페이)_나이스", "amount": -38900, "currency": "KRW", "account": "", "category": "Shopping", "subcategory": "Electronic Devices"},
+      {"daysAgo": 4, "time": "10:00", "note": "(주)데모컴퍼니 급여", "sourceNote": "", "amount": 3200000, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Salary"},
+      {"daysAgo": 5, "time": "14:10", "note": "쿠팡(쿠페이)_KCP", "sourceNote": "", "amount": 54300, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Refund"},
+      {"daysAgo": 6, "time": "18:30", "note": "올리브영 강남점", "sourceNote": "", "amount": -21000, "currency": "KRW", "account": "", "category": "Shopping", "subcategory": "Self-care"},
+      {"daysAgo": 6, "time": "11:52", "note": "쿠팡(쿠페이)_KCP — A4 복사용지 500매", "sourceNote": "쿠팡(쿠페이)_KCP", "amount": -12800, "currency": "KRW", "account": "", "category": "Paperwork", "subcategory": "Printing & scanning"},
+      {"daysAgo": 8, "time": "15:10", "note": "토스뱅크 이자", "sourceNote": "", "amount": 1245, "currency": "KRW", "account": "", "category": "Income", "subcategory": "Interest"},
+      {"daysAgo": 8, "time": "09:00", "note": "넷플릭스", "sourceNote": "", "amount": -13500, "currency": "KRW", "account": "", "category": "Utilities", "subcategory": "Subscriptions"},
+      {"daysAgo": 9, "time": "12:00", "note": "다이소 역삼점", "sourceNote": "", "amount": -8000, "currency": "KRW", "account": "", "category": "Housing", "subcategory": "Home Supplies"}
+    ],
+    "receipts": [
+      {
+        "id": "demo-receipt-5",
+        "daysAgo": 2,
+        "time": "09:53:20",
+        "total": 24140,
+        "items": ["무농약 바나나 1.2kg", "캡형 물티슈 100매"],
+        "lines": [
+          {"name": "무농약 바나나 1.2kg", "unitPrice": 6990, "quantity": 1},
+          {"name": "캡형 물티슈 100매", "unitPrice": 2900, "quantity": 6}
+        ]
+      },
+      {
+        "id": "demo-receipt-9",
+        "daysAgo": 4,
+        "time": "20:40:20",
+        "total": 38900,
+        "items": ["무선 블루투스 마우스"],
+        "lines": [
+          {"name": "무선 블루투스 마우스", "unitPrice": 38900, "quantity": 1}
+        ]
+      },
+      {
+        "id": "demo-receipt-13",
+        "daysAgo": 6,
+        "time": "11:52:20",
+        "total": 12800,
+        "items": ["A4 복사용지 500매"],
+        "lines": [
+          {"name": "A4 복사용지 500매", "unitPrice": 12800, "quantity": 1}
+        ]
+      }
+    ]
+  },
+  "settings": {
+    "gatewayToken": "demo-access-token",
+    "excelPassword": "demo-password",
+    "telegramBotToken": "demo-bot-token",
+    "telegramChatId": "-1001234567890",
+    "gmailAddress": "demo@example.com",
+    "gmailAppPassword": "demo-app-password",
+    "mappings": [
+      {"pattern": "급여 입금", "category": "Income", "subcategory": "Salary"},
+      {"pattern": "Coupang Eats", "category": "Food & Drinks", "subcategory": "Restaurant"},
+      {"pattern": "CU", "category": "Food & Drinks", "subcategory": "Snacks"},
+      {"pattern": "GS25", "category": "Food & Drinks", "subcategory": "Snacks"},
+      {"pattern": "7-Eleven", "category": "Food & Drinks", "subcategory": "Snacks"},
+      {"pattern": "세븐일레븐", "category": "Food & Drinks", "subcategory": "Snacks"}
+    ],
+    "ignorePatterns": ["Savings transfer"],
+    "github": {"owner": "demo-user", "repo": "expense-backup", "branch": "main", "path": "expenses.sql", "token": "demo-github-token", "autoBackup": true},
+    "lastBackupAgeMinutes": 12
+  }
+}

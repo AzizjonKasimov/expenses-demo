@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Expenses web demo</title>
+  <meta name="description" content="Try the Expenses Android app in your browser: import a sample bank statement, split costs, and see the charts. Sample data only.">
+  <meta property="og:title" content="Expenses web demo">
+  <meta property="og:description" content="Try the Expenses Android app in your browser, on sample data.">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="data/theme.css">
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+    { "imports": { "preact": "./vendor/preact.module.js", "preact/hooks": "./vendor/hooks.module.js", "htm": "./vendor/htm.module.js" } }
+  </script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <section class="intro">
+      <div class="intro-app">
+        <img src="icon.svg" alt="">
+        <h1>Expenses</h1>
+      </div>
+      <p class="tagline">An Android app that imports your bank statement, lets AI sort every purchase, and splits shared costs in a tap.</p>
+      <ol>
+        <li>Tap <b>Import Excel</b> to load a sample bank statement.</li>
+        <li>Mark each row: <b>I Pay Full</b>, <b>Half</b>, <b>She Pays</b> or <b>Skip</b>. Tap any text on a card to edit it.</li>
+        <li>Tap <b>Finish</b> to see the Telegram message it would send.</li>
+        <li>Look around History, Charts and Budget.</li>
+      </ol>
+      <p class="note">Everything here is sample data and stays in your browser. Reload the page to start over.</p>
+      <div class="intro-links">
+        <a class="link-btn filled" data-link="app" href="https://github.com/AzizjonKasimov/expense-tracker-app-releases/releases/latest" target="_blank" rel="noopener">Get the Android app</a>
+        <a class="link-btn outlined" data-link="video" href="https://youtu.be/8pA2G70gYdI" target="_blank" rel="noopener">Watch the video</a>
+      </div>
+    </section>
+    <div class="phone">
+      <div class="mobile-strip">
+        <span>Expenses web demo · sample data only</span>
+        <a href="https://github.com/AzizjonKasimov/expense-tracker-app-releases/releases/latest" target="_blank" rel="noopener">Get the app</a>
+      </div>
+      <div class="phone-screen" id="app"></div>
+    </div>
+  </main>
+  <noscript>This demo needs JavaScript.</noscript>
+</body>
+</html>

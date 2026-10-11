@@ -1,0 +1,98 @@
+/* Generated from the Android app by WebDemoExportTest. Do not edit by hand: run web-demo/tools/export.ps1. */
+/* The app's resolved Material 3 color schemes (ui/theme/Color.kt + Theme.kt) and type scale (Type.kt). */
+
+:root {
+  --md-primary: #0f766e;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #d8f3ef;
+  --md-on-primary-container: #063d39;
+  --md-inverse-primary: #d0bcff;
+  --md-secondary: #566079;
+  --md-on-secondary: #ffffff;
+  --md-secondary-container: #e8eefb;
+  --md-on-secondary-container: #1c2540;
+  --md-tertiary: #c36a2d;
+  --md-on-tertiary: #ffffff;
+  --md-tertiary-container: #ffe4d2;
+  --md-on-tertiary-container: #43210c;
+  --md-background: #fafbfe;
+  --md-on-background: #111827;
+  --md-surface: #ffffff;
+  --md-on-surface: #111827;
+  --md-surface-variant: #f1f4f8;
+  --md-on-surface-variant: #687080;
+  --md-surface-tint: #0f766e;
+  --md-inverse-surface: #322f35;
+  --md-inverse-on-surface: #f5eff7;
+  --md-error: #c62828;
+  --md-on-error: #ffffff;
+  --md-error-container: #f9dedc;
+  --md-on-error-container: #410e0b;
+  --md-outline: #9ba5b5;
+  --md-outline-variant: #d2d8e4;
+  --md-scrim: #000000;
+  --md-surface-bright: #fef7ff;
+  --md-surface-dim: #ded8e1;
+  --md-surface-container-lowest: #ffffff;
+  --md-surface-container-low: #f7f2fa;
+  --md-surface-container: #f3edf7;
+  --md-surface-container-high: #ece6f0;
+  --md-surface-container-highest: #e6e0e9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --md-primary: #7dd3c7;
+    --md-on-primary: #003b36;
+    --md-primary-container: #0b4f49;
+    --md-on-primary-container: #d8f3ef;
+    --md-inverse-primary: #6750a4;
+    --md-secondary: #c6d3ec;
+    --md-on-secondary: #332d41;
+    --md-secondary-container: #30394f;
+    --md-on-secondary-container: #e8eefb;
+    --md-tertiary: #ffb482;
+    --md-on-tertiary: #492532;
+    --md-tertiary-container: #713b17;
+    --md-on-tertiary-container: #ffe4d2;
+    --md-background: #101318;
+    --md-on-background: #e8ecf3;
+    --md-surface: #171b22;
+    --md-on-surface: #e8ecf3;
+    --md-surface-variant: #252b35;
+    --md-on-surface-variant: #b6becc;
+    --md-surface-tint: #7dd3c7;
+    --md-inverse-surface: #e6e0e9;
+    --md-inverse-on-surface: #322f35;
+    --md-error: #ffb4a9;
+    --md-on-error: #601410;
+    --md-error-container: #8c1d18;
+    --md-on-error-container: #f9dedc;
+    --md-outline: #7f8998;
+    --md-outline-variant: #424a58;
+    --md-scrim: #000000;
+    --md-surface-bright: #3b383e;
+    --md-surface-dim: #141218;
+    --md-surface-container-lowest: #0f0d13;
+    --md-surface-container-low: #1d1b20;
+    --md-surface-container: #211f26;
+    --md-surface-container-high: #2b2930;
+    --md-surface-container-highest: #36343b;
+  }
+}
+
+.t-displayLarge { font-size: 57px; line-height: 64px; font-weight: 400; letter-spacing: -0.20px; }
+.t-displayMedium { font-size: 45px; line-height: 52px; font-weight: 400; letter-spacing: 0px; }
+.t-displaySmall { font-size: 36px; line-height: 44px; font-weight: 400; letter-spacing: 0px; }
+.t-headlineLarge { font-size: 32px; line-height: 40px; font-weight: 400; letter-spacing: 0px; }
+.t-headlineMedium { font-size: 30px; line-height: 36px; font-weight: 700; letter-spacing: 0px; }
+.t-headlineSmall { font-size: 26px; line-height: 32px; font-weight: 700; letter-spacing: 0px; }
+.t-titleLarge { font-size: 22px; line-height: 28px; font-weight: 600; letter-spacing: 0px; }
+.t-titleMedium { font-size: 17px; line-height: 23px; font-weight: 600; letter-spacing: 0px; }
+.t-titleSmall { font-size: 15px; line-height: 20px; font-weight: 600; letter-spacing: 0px; }
+.t-bodyLarge { font-size: 16px; line-height: 23px; font-weight: 400; letter-spacing: 0px; }
+.t-bodyMedium { font-size: 14px; line-height: 20px; font-weight: 400; letter-spacing: 0px; }
+.t-bodySmall { font-size: 12px; line-height: 17px; font-weight: 400; letter-spacing: 0px; }
+.t-labelLarge { font-size: 14px; line-height: 18px; font-weight: 600; letter-spacing: 0px; }
+.t-labelMedium { font-size: 12px; line-height: 16px; font-weight: 500; letter-spacing: 0px; }
+.t-labelSmall { font-size: 11px; line-height: 14px; font-weight: 500; letter-spacing: 0px; }
